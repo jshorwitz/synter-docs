@@ -10,24 +10,24 @@ In-depth guides for using Synter effectively.
 
 ## Platform Integration
 
-- [Google Ads](./platforms/google-ads.md)
-- [Reddit Ads](./platforms/reddit-ads.md)
-- [LinkedIn Ads](./platforms/linkedin-ads.md)
-- [Microsoft Ads](./platforms/microsoft-ads.md)
-- [Meta Ads](./platforms/meta-ads.md)
-- [X Ads](./platforms/x-ads.md)
+- Google Ads — *Coming Soon*
+- Reddit Ads — *Coming Soon*
+- LinkedIn Ads — *Coming Soon*
+- Microsoft Ads — *Coming Soon*
+- Meta Ads — *Coming Soon*
+- X Ads — *Coming Soon*
 
 ## Analytics Integration
 
-- [PostHog](./analytics/posthog.md)
-- [Mixpanel](./analytics/mixpanel.md)
-- [Heap](./analytics/heap.md)
-- [Segment](./analytics/segment.md)
-- [Google Analytics 4](./analytics/ga4.md)
+- PostHog — *Coming Soon*
+- Mixpanel — *Coming Soon*
+- Heap — *Coming Soon*
+- Segment — *Coming Soon*
+- Google Analytics 4 — *Coming Soon*
 
 ## Advanced Topics
 
-- [Bring Your Own AI](./advanced/byoai.md) - Export data for custom ML models
-- [Multi-Touch Attribution](./advanced/attribution.md)
-- [Webhooks](./advanced/webhooks.md)
-- [Rate Limits](./advanced/rate-limits.md)
+- Bring Your Own AI — *Coming Soon*
+- Multi-Touch Attribution — *Coming Soon*
+- Webhooks — *Coming Soon*
+- Rate Limits — *Coming Soon*

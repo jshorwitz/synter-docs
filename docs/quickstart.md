@@ -26,7 +26,7 @@ pip install synter
 1. Sign up at [syntermedia.ai](https://syntermedia.ai)
 2. Go to **Settings** → **API Keys**
 3. Create a new API key
-4. Copy the key (starts with `sk_live_` or `sk_test_`)
+4. Copy the key (starts with `syn_`)
 
 ## Your First Campaign
 
@@ -58,7 +58,7 @@ import asyncio
 from synter import Synter
 
 async def main():
-    async with Synter(api_key="sk_live_...") as synter:
+    async with Synter(api_key="syn_...") as synter:
         campaign = await synter.campaigns.create({
             "name": "Q4 Product Launch",
             "platform": "google",
@@ -147,7 +147,7 @@ Test without hitting real ad platforms:
 
 ```typescript
 const synter = new Synter({
-  apiKey: 'sk_test_...',  // Test keys auto-enable sandbox
+  apiKey: 'syn_test_...',  // Test keys auto-enable sandbox
   environment: 'sandbox'
 });
 

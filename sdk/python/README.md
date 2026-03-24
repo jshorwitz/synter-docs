@@ -27,7 +27,7 @@ import asyncio
 from synter import Synter
 
 async def main():
-    async with Synter(api_key="sk_live_...") as synter:
+    async with Synter(api_key="syn_...") as synter:
         # Create a campaign (UTMs auto-generated)
         campaign = await synter.campaigns.create({
             "name": "Q4 Product Launch",
@@ -221,7 +221,7 @@ Test without hitting real ad platforms:
 
 ```python
 synter = Synter({
-    "api_key": "sk_test_...",  # Test keys auto-enable sandbox
+    "api_key": "syn_test_...",  # Test keys auto-enable sandbox
     "environment": "sandbox"
 })
 
@@ -263,7 +263,7 @@ except SynterError as e:
 Use async context manager for automatic cleanup:
 
 ```python
-async with Synter(api_key="sk_live_...") as synter:
+async with Synter(api_key="syn_...") as synter:
     campaign = await synter.campaigns.create({...})
     # HTTP client automatically closed on exit
 ```

@@ -218,7 +218,7 @@ Test without hitting real ad platforms:
 
 ```typescript
 const synter = new Synter({
-  apiKey: 'sk_test_...',  // Test keys auto-enable sandbox
+  apiKey: 'syn_test_...',  // Test keys auto-enable sandbox
   environment: 'sandbox'
 });
 

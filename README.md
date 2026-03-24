@@ -47,7 +47,7 @@ pip install synter
 ```python
 from synter import Synter
 
-async with Synter(api_key="sk_live_...") as synter:
+async with Synter(api_key="syn_...") as synter:
     # Create a campaign
     campaign = await synter.campaigns.create({
         "name": "Q4 Product Launch",
